@@ -1,0 +1,16 @@
+Before proceeding, these files need to be downloaded to the local system:
+
+Glove Vectors:
+command:
+
+curl -Lo file_location/glove.840B.300d.zip http://nlp.stanford.edu/data/glove.840B.300d.zip
+
+InferSent model (trained with GloVe):
+command: 
+
+curl -Lo file_location/infersent1.pickle https://dl.fbaipublicfiles.com/infersent/infersent1.pkl
+
+Package with InferSent model:
+You can find it here:
+
+https://github.com/facebookresearch/InferSent/blob/master/models.py
